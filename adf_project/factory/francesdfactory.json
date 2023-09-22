@@ -1,0 +1,17 @@
+{
+	"name": "francesdfactory",
+	"properties": {
+		"globalParameters": {
+			"GlobalParameter": {
+				"type": "int",
+				"value": 2020
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9c319719-9074-4a30-94ad-e26fdf647d95",
+		"tenantId": "cd6683a6-aa85-46cf-aeea-92d4a1477009"
+	}
+}

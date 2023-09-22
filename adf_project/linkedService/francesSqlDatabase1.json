@@ -1,0 +1,12 @@
+{
+	"name": "francesSqlDatabase1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqlfrances.database.windows.net;initial catalog=db_nycpayroll;user id=francesudacity",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEJFQTA3QTg2LTk1MDItNEU0RS05RjFGLTlERDcwRkY5Mzc5OF8wZWNiZmUzYy1lODY0LTQ4YzctYWU2YS1lYmNkNTJlZjUwYTkiDQp9"
+		}
+	}
+}
